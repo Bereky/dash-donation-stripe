@@ -1,13 +1,13 @@
 import { useContext } from "react";
-import DonateContext from "../Context/DonateContext";
+//import DonateContext from "../Context/DonateContext";
 
 
 const Completion = () => {
 
-    const donateContext = useContext(DonateContext);
-
+    //const donateContext = useContext(DonateContext);
+    
     return ( 
-        <div className="container h-auto mt-16 mb-5 flex justify-center items-center flex-col space-y-3">
+        <div className="h-auto min-h-56 mt-16 mb-5 flex justify-center items-center flex-col space-y-3">
             <div className="w-100 h-16 ">
                 <h1 className="text-4xl text-orangeMain font-bold">Thank you!</h1>
             </div>
@@ -36,9 +36,9 @@ const Completion = () => {
                 </svg>
             </div>
             <div className="w-100 h-auto ">
-                <div className="h-12 text-center mt-5" >
+                {/* <div className="h-12 text-center mt-5" >
                     <h1 className="text-4xl font-bold text-orangeMain">{donateContext.donateAmount}</h1>
-                </div>
+                </div> */}
                 <div className="h-12 w-100 flex items-center justify-center">
                     <h1 className="text-3xl text-center text-orangeMain">YOUR DONATION WAS SUCCESSFUL!</h1>
                 </div>
